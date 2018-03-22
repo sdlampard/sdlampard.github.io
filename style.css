@@ -1,0 +1,18 @@
+#left {
+    position:fixed;
+    background-color:aqua;
+    color:red;
+    width: 185px;
+    float: right;
+    text-align: center;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#right {
+    margin-left: 200px;
+}
+
+h1 {
+    color:red;
+}
