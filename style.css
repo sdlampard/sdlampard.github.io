@@ -1,6 +1,5 @@
 #left {
     position:fixed;
-    background-color:aqua;
     color:red;
     width: 185px;
     float: right;
@@ -11,8 +10,4 @@
 
 #right {
     margin-left: 200px;
-}
-
-h1 {
-    color:red;
 }
