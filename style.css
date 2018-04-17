@@ -1,4 +1,5 @@
 #left {
+    background-color: dimgray;
     position:fixed;
     color:red;
     width: 185px;
@@ -9,7 +10,10 @@
 }
 
 #right {
+    text-align: center;
     margin-left: 200px;
+    background-image: url(/image/background.jpg);
+    height:900px;
 }
 
 #main {
@@ -18,4 +22,12 @@
 #우승 {
     color:red;
     font-size: 20dp;
+}
+
+td {
+    text-align: right;
+}
+
+#준비중 {
+    color:red;
 }
