@@ -7,20 +7,27 @@
 }
 
 #homepage{
-    background-image: url(image/sdl.jpg);
+    background-image: url(image/backg2.jpeg);
     background-size: cover;
 }
 
 #left {
     position:fixed;
     width: 200px;
-    color: red;
     float: left;
-    text-align: center;
+    text-align: left;
+}
+
+.menubar li ul {
+    display: none;
+}
+
+.menubar li:hover ul {
+    display:block;
 }
 
 #right {
-    margin-left: 200px;
+    margin-left: 230px;
     float: left;
     text-align: left;
 }
