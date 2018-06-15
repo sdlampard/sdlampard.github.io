@@ -7,26 +7,33 @@
 }
 
 #homepage{
+    background-image: url(image/sdl.jpg);
+    background-size: cover;
 }
 
 #left {
-    position: fixed;
+    position:fixed;
+    width: 200px;
     color: red;
-    width: 185px;
-    float: right;
+    float: left;
     text-align: center;
-    height: 900px;
 }
 
 #right {
-    position: relative;
-    margin-bottom: 50px;
-    text-align: left;
     margin-left: 200px;
+    float: left;
+    text-align: left;
 }
 
 #footer {
     text-align: center;
+    clear:both;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 0;
+    
 }
 
 #우승 {
