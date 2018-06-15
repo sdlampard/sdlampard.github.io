@@ -1,26 +1,36 @@
+#header {
+    position: inherit;
+    height: 50px;
+    width: inherit;
+    text-align: center;
+    display: block;
+}
+
+#homepage{
+}
+
 #left {
-    background-color: dimgray;
-    position:fixed;
-    color:red;
+    position: fixed;
+    color: red;
     width: 185px;
     float: right;
     text-align: center;
     height: 900px;
-    margin: 0 auto;
 }
 
 #right {
-    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: left;
     margin-left: 200px;
-    background-image: url(/image/background.jpg);
-    height:900px;
 }
 
-#main {
+#footer {
+    text-align: center;
 }
 
 #우승 {
-    color:red;
+    color: red;
     font-size: 20dp;
 }
 
@@ -29,5 +39,5 @@ td {
 }
 
 #준비중 {
-    color:red;
+    color: red;
 }
