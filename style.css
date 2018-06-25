@@ -1,0 +1,39 @@
+header {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 {
+    color: yellow;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+body {
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+
+image {
+    float: left;
+    margin-right: 50px;
+}
+
+#left {
+    width: 185px;
+    float: right;
+    text-align: center;
+    position: fixed;
+    height: 900px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+#right {
+    width: 800px;
+    float: left;
+    margin-left: 200px;
+}
