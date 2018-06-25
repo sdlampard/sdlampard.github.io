@@ -1,5 +1,4 @@
 header {
-    color: red;
     text-align: center;
     font-size: 40px;
 }
@@ -29,7 +28,6 @@ image {
     position: fixed;
     height: 900px;
     margin: 0 auto;
-    background-color: orange;
 }
 
 #right {
