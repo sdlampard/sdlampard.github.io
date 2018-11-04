@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <meta charset = "utf-8">
+    <script src="app.js"></script>
+
+    <head>
+        <title>Donghak Oh how long mosol</title>
+        <link href=style.css rel="stylesheet"/>
+    </head>
+    <body>
+        
+        <h1>현재 날짜: <p id="today"></p></h1>
+        
+        <h1>오</h1>
+        
+        <p id="feelSorry"> </p>
+        
+        <script>
+            n = new Date();
+            y = n.getFullYear();
+            m = n.getMonth()+1;
+            d = n.getDate();
+            document.getElementById("today").innerHTML= y+"년 "+m+"월 "+d+"일";
+            
+            y1 = 1992;
+            m1 = 1;
+            d1 = 16;
+            
+            ny = y - y1;
+            nm = m - m1;
+            nd = d - d1;
+            
+            sad = ny*365+m*30+nd;
+            
+            document.getElementById("feelSorry").innerHTML = sad+"일";
+        </script>
+
+        
+        <h1>김</h1>
+        
+        <p id="feelSorry1"> </p>
+        
+        <script>
+            n = new Date();
+            y = n.getFullYear();
+            m = n.getMonth()+1;
+            d = n.getDate();
+            
+            y1 = 1994;
+            m1 = 4;
+            d1 = 6;
+            
+            ny = y - y1;
+            nm = m - m1;
+            nd = d - d1;
+            
+            sad = ny*365+m*30+nd;
+            
+            document.getElementById("feelSorry1").innerHTML = sad+"일";
+        </script>
+    </body>
+</html>
