@@ -40,6 +40,10 @@
         
         <p id="feelSorry1"> </p>
         
+        <h1>콱</h1>
+        
+        <p id="notHuman"> </p>
+        
         <script>
             n = new Date();
             y = n.getFullYear();
@@ -54,9 +58,22 @@
             nm = m - m1;
             nd = d - d1;
             
-            sad = ny*365+m*30+nd;
+            sad = ny*365+nm*30+nd;
             
             document.getElementById("feelSorry1").innerHTML = sad+"일";
+            
+            y2 = 2017;
+            m2 = 7;
+            d2 = 5;
+            
+            ny1 = y - y2;
+            nm1 = m - m2;
+            nd1 = d - d2;
+            
+            sad1 = ny1*365+nm1*30+nd1;
+            
+            document.getElementById("notHuman").innerHTML = sad1 + "일";
+            
         </script>
     </body>
 </html>
