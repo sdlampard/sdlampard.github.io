@@ -44,6 +44,15 @@
         
         <p id="notHuman"> </p>
         
+        <h1>퀀</h1>
+        <p id="happy"></p>
+        
+        <h1>팍</h1>
+        <p id="happy1"></p>
+        
+        <h1>백의경</h1>
+        <p id="unhappy"></p>
+        
         <script>
             n = new Date();
             y = n.getFullYear();
@@ -62,8 +71,8 @@
             
             document.getElementById("feelSorry1").innerHTML = sad+"일";
             
-            y2 = 2017;
-            m2 = 7;
+            y2 = 2018;
+            m2 = 3;
             d2 = 5;
             
             ny1 = y - y2;
@@ -73,6 +82,40 @@
             sad1 = ny1*365+nm1*30+nd1;
             
             document.getElementById("notHuman").innerHTML = sad1 + "일";
+            
+            y3 = 2018;
+            m3 = 9;
+            d3 = 18;
+            
+            ny2 = y - y3;
+            nm2 = m - m3;
+            nd2 = d - d3;
+            
+            happy = ny2*365+nm2*30+nd2;
+            document.getElementById("happy").innerHTML = happy +"일";
+            
+            y4 = 2018;
+            m4 = 9;
+            d4 = 12;
+            
+            ny3 = y - y4;
+            nm3 = m - m4;
+            nd3 = d - d4;
+            
+            happy1 = ny3*365+nm3*30+nd3;
+            document.getElementById("happy1").innerHTML = happy1 +"일";
+            
+            
+            y5 = 2018;
+            m5 = 11;
+            d5 = 8;
+            
+            ny4 = y - y5;
+            nm4 = m - m5;
+            nd4 = d - d5;
+            
+            happy2 = ny4*365+nm4*30+nd4;
+            document.getElementById("unhappy").innerHTML = happy2    +"일";
             
         </script>
     </body>
