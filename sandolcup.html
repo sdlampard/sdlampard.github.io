@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="utf-8">
-<link href="style.css" rel="stylesheet" />
+<link href="sdstyle.css" rel="stylesheet" />
 <script src="app.js"></script>
 
 <head>
@@ -12,36 +12,32 @@
     <div id="header">
         <h1>SDCUP</h1>
     </div>
-    
-    <div id="left" class="menubar">
-        <ul>
-            <li>
-                <a href="index.html">
-                    <h4>홈</h4>
-                </a>
-            </li>
-            <li>
+    <nav class="navi">
                 <h4>소피파에서 검색</h4>
                 <form action="http://www.sofifa.com/players" method="get">
                     <input type="text" name="keyword" />
                     <input type="submit" value="search" />
                 </form>
-            </li>
+        <ul>
             <li>
-                <h4>시즌</h4>
-                <ul>
-                    <li><a href="season1.html"><h4>시즌 1</h4></a></li>
-                    <li><a href="season2.html"><h4>시즌 2</h4></a></li>
+                <a href="sdl.html">홈</a>
+            </li>   
+            <li class="has-dropdown">시즌
+                <ul class="dropdown">
+                    <li><a href="season1.html">시즌 1</a></li>
+                    <li><a href="season2.html">시즌 2</a></li>
+                </ul>
+            </li>
+            <li class="has-dropdown">산돌컵
+                <ul class="dropdown">
+                    <li><a href="sandolcup.html">컵1</a></li>
                 </ul>
             </li>
             <li>
-                <h4>산돌컵</h4>
-                <ul>
-                    <li><a href="sandolcup.html"><h4>컵1</h4></a></li>
-                </ul>
+                <a href="toto.html">예측실</a>
             </li>
         </ul>
-    </div>
+    </nav>
   
     <div id="right">
         <h1>산돌컵 대진표</h1>
