@@ -1,0 +1,46 @@
+
+body {
+}
+
+p1 {
+    font-size: 40px;
+    font-family: serif;
+}
+
+.header {
+    align-content: center;
+    text-align: center;
+    height: 100px;
+}
+
+.main {
+    text-align: center;
+    height: 700px;
+    align-content: center;
+}
+
+.footer {
+    height: 100px;
+}
+
+.header {
+    text-align: center;
+    height: 100px;
+}
+
+.ilmain {
+    align-content: center;
+}
+
+.ilfooter {
+    align-self: auto;
+    height: 100px;
+}
+
+.navi{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
