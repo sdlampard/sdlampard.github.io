@@ -40,12 +40,12 @@ text-align: left;
 }
 
 .navi ul li.has-dropdown .dropdown {
-    display: block;
+    display: list-item;
     opacity: 0;
 }
 
 .navi ul li.has-dropdown .dropdown:hover {
-    display: block;
+    display: list-item;
     opacity: 100;
 }
 
